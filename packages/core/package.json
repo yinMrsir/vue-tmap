@@ -1,0 +1,29 @@
+{
+  "name": "@vue-tmap/core",
+  "version": "0.0.1",
+  "description": "> TODO: description",
+  "author": "yinchunyu <542968439@qq.com>",
+  "homepage": "",
+  "license": "ISC",
+  "main": "dist/index.js",
+  "typings": "./lib/index.d.ts",
+  "type": "module",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "publishConfig": {
+    "registry": "https://registry.npmmirror.com/"
+  },
+  "scripts": {
+    "build": "rollup -c"
+  },
+  "devDependencies": {
+    "rollup": "^4.20.0",
+    "rollup-plugin-css-only": "^4.5.2",
+    "rollup-plugin-vue": "^6.0.0"
+  }
+}
