@@ -26,5 +26,5 @@
     "rollup-plugin-css-only": "^4.5.2",
     "rollup-plugin-vue": "^6.0.0"
   },
-  "gitHead": "dcadfa9edb5fe33d51f995dca34d53fd308ba705"
+  "gitHead": "bcc12ceb1eb69ab68a8a3f42f3a742363875ce53"
 }
