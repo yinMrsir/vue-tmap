@@ -42,8 +42,12 @@ app.use(VueTMap)
   <input type="button" id="button2" @click="map.zoomOut()" value="缩小地图" />
 </template>
 ```
-
-
+## 参数
+| 参数 | 说明 | 类型 | 默认值 |
+| --- | --- | --- | --- |
+| lngLat | 地图中心点经纬度 | [number, number] | [116.40769, 39.89945] |
+| zoom | 地图缩放级别 | number | 12 |
+| drag | 是否可拖拽 | boolean | true |
 
 ## 预览示例
 
