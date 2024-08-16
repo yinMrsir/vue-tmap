@@ -1,0 +1,52 @@
+{
+  "version": "6.0",
+  "nxVersion": "19.6.0",
+  "deps": {
+    "rollup": "^4.20.0",
+    "rollup-plugin-css-only": "^4.5.2",
+    "rollup-plugin-vue": "^6.0.0"
+  },
+  "pathMappings": {},
+  "nxJsonPlugins": [],
+  "fileMap": {
+    "projectFileMap": {},
+    "nonProjectFiles": [
+      {
+        "file": "README.md",
+        "hash": "13889303464217125533"
+      },
+      {
+        "file": "lib/components/TMap.vue",
+        "hash": "13384221880372523553"
+      },
+      {
+        "file": "lib/index.d.ts",
+        "hash": "12615407806344620946"
+      },
+      {
+        "file": "lib/index.js",
+        "hash": "13586176891376903639"
+      },
+      {
+        "file": "lib/services/injectedTMapApiInstance.js",
+        "hash": "2429875690991588427"
+      },
+      {
+        "file": "lib/services/lazyTMapApiLoader.js",
+        "hash": "7641369962498566928"
+      },
+      {
+        "file": "lib/utils/constant.js",
+        "hash": "12107618174714341559"
+      },
+      {
+        "file": "package.json",
+        "hash": "17173254097477693908"
+      },
+      {
+        "file": "rollup.config.js",
+        "hash": "13799945233394471160"
+      }
+    ]
+  }
+}

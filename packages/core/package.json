@@ -16,7 +16,7 @@
     "dist"
   ],
   "publishConfig": {
-    "registry": "https://registry.npmmirror.com/"
+    "registry": "https://registry.npmjs.org/"
   },
   "scripts": {
     "build": "rollup -c"
@@ -26,5 +26,5 @@
     "rollup-plugin-css-only": "^4.5.2",
     "rollup-plugin-vue": "^6.0.0"
   },
-  "gitHead": "c697b9595f37023dd4f40b27fb3ff24d2a7a9f83"
+  "gitHead": "1bd366d752ae0ebfc8da27ebf9b1b7a8d3b9b761"
 }
