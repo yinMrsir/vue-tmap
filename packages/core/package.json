@@ -3,7 +3,7 @@
   "version": "0.0.12-alpha.0",
   "description": "> TODO: description",
   "author": "yinchunyu <542968439@qq.com>",
-  "homepage": "",
+  "homepage": "https://github.com/yinMrsir/vue-tmap",
   "license": "ISC",
   "main": "dist/index.js",
   "typings": "./lib/index.d.ts",
@@ -26,5 +26,5 @@
     "rollup-plugin-css-only": "^4.5.2",
     "rollup-plugin-vue": "^6.0.0"
   },
-  "gitHead": "1bd366d752ae0ebfc8da27ebf9b1b7a8d3b9b761"
+  "gitHead": "60e4e9bd0ef8308e3004eabc5f0a4d8428446492"
 }
