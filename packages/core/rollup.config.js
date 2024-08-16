@@ -9,5 +9,5 @@ export default {
       format: "es",
     },
   ],
-  plugins: [css(), vue({ css: false })],
+  plugins: [css(), vue({ css: true })],
 };

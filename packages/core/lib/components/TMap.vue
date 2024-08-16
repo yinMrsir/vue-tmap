@@ -61,19 +61,8 @@ function setDrag(newDrag) {
 </script>
 
 <template>
-  <div class="vue-t-map-container">
-    <div class="vue-t-map" ref="mapRef"></div>
+  <div class="vue-t-map-container" style="width: 100%; height: 100%">
+    <div class="vue-t-map" ref="mapRef" style="width: 100%; height: 100%"></div>
     <slot></slot>
   </div>
 </template>
-
-<style>
-.vue-t-map-container {
-  height: 100%;
-  width: 100%;
-  .vue-t-map {
-    height: 100%;
-    width: 100%;
-  }
-}
-</style>
