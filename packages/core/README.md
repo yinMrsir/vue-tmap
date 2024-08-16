@@ -1,6 +1,6 @@
 # `@vue-tmap/core`
 
-> TODO: description
+VUE天地图核心库
 
 ## Usage
 
