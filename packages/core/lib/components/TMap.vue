@@ -50,6 +50,7 @@ watch(
   () => props.drag,
   (newDrag) => setDrag(newDrag),
 );
+
 function setDrag(newDrag) {
   if (newDrag) {
     map && map.enableDrag();
