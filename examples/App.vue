@@ -7,7 +7,12 @@ function init(e) {
 
 <template>
   <div style="width: 50vw; height: 50vh">
-    <t-map @init="init" />
+    <t-map
+      :drag="true"
+      :zoom="12"
+      :lngLat="[116.40769, 39.89945]"
+      @init="init"
+    />
   </div>
   <input type="button" id="button1" @click="map.zoomIn()" value="放大地图" />
   <input type="button" id="button2" @click="map.zoomOut()" value="缩小地图" />
