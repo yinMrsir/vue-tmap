@@ -45,12 +45,11 @@ watch(
   },
 );
 
+// 设置拖拽
 watch(
   () => props.drag,
   (newDrag) => setDrag(newDrag),
 );
-
-// 设置拖拽
 function setDrag(newDrag) {
   if (newDrag) {
     map && map.enableDrag();
