@@ -13,7 +13,7 @@
     "lint": "eslint . --ext .vue,.js,.jsx,.cjs,.mjs,.ts,.tsx,.cts,.mts --fix --ignore-path .gitignore"
   },
   "dependencies": {
-    "@vue-tmap/core": "workspace:^",
+    "vue-tmap": "workspace:^",
     "unplugin-auto-import": "^0.17.6",
     "vue": "^3.4.29",
     "vue-router": "^4.3.3"

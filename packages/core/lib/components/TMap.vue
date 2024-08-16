@@ -1,4 +1,5 @@
 <script setup>
+import { ref } from "vue";
 import { lazyTMapApiLoaderInstance } from "../services/injectedTMapApiInstance";
 import CONST from "../utils/constant";
 

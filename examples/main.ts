@@ -1,5 +1,5 @@
 import "./assets/main.css";
-import VueTMap from "@vue-tmap/core";
+import VueTMap from "vue-tmap";
 import { createApp } from "vue";
 import App from "./App.vue";
 
