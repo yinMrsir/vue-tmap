@@ -1,6 +1,6 @@
 {
   "name": "@vue-tmap/core",
-  "version": "0.0.8-alpha.0",
+  "version": "0.0.9-alpha.0",
   "description": "> TODO: description",
   "author": "yinchunyu <542968439@qq.com>",
   "homepage": "",
@@ -26,5 +26,5 @@
     "rollup-plugin-css-only": "^4.5.2",
     "rollup-plugin-vue": "^6.0.0"
   },
-  "gitHead": "67effec54e2c579f9e4a0c1db08b616b8d72f2aa"
+  "gitHead": "c697b9595f37023dd4f40b27fb3ff24d2a7a9f83"
 }
