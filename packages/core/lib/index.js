@@ -2,13 +2,19 @@
 import { initTMapApiLoader } from "./services/injectedTMapApiInstance.js";
 // 组建
 import TMap from "./components/TMap.vue";
+import TControlZoom from "./components/TControlZoom.vue";
+import TControlScale from "./components/TControlScale.vue";
+
+let components = [TMap, TControlZoom, TControlScale];
 
 let VueTMap = {
   initTMapApiLoader,
 };
 
 VueTMap.install = (Vue) => {
-  Vue.component(TMap.name, TMap);
+  components.map((_component) => {
+    Vue.component(_component.name, _component);
+  });
 };
 
 export default VueTMap;

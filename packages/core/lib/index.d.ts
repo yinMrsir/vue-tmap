@@ -10,6 +10,8 @@ export declare class TMap {
   disableDrag(): void;
   centerAndZoom(lnglat: LngLat, zoom: Number): void;
   isDrag(): boolean;
+  setStyle(style: string): void;
+  removeStyle(): void;
 }
 
 declare class LngLat {
@@ -34,10 +36,23 @@ declare class LngLat {
   equals(other: LngLat): number;
 }
 
+class LngLatBounds {
+  constructor(sw: LngLat, ne: LngLat);
+}
+
+interface MapOptions {
+  projection: string;
+  minZoom: number;
+  maxZoom: number;
+  maxBounds: LngLatBounds;
+  center: LngLat;
+  zoom: number;
+}
+
 declare global {
   interface Window {
     T: {
-      Map(container: String | HTMLElement): TMap;
+      Map(container: String | HTMLElement, config: MapOptions): TMap;
       LngLat(lnglat: any): LngLat;
     };
   }
