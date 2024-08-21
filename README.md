@@ -36,7 +36,11 @@ app.use(VueTMap)
         :zoom="12"
         :lngLat="[116.40769, 39.89945]"
         @init="init"
-    />
+    >
+      <t-control-zoom />
+      <t-control-scale />
+      <t-control-overview-map />
+    </t-map>
   </div>
   <input type="button" id="button1" @click="map.zoomIn()" value="放大地图" />
   <input type="button" id="button2" @click="map.zoomOut()" value="缩小地图" />
