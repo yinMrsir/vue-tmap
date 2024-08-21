@@ -49,6 +49,13 @@ app.use(VueTMap)
 | zoom | 地图缩放级别 | number | 12 |
 | drag | 是否可拖拽 | boolean | true |
 
+## 组件
+| 组件 | 说明 |
+| t-map | 地图组件 |
+| t-control-zoom | 缩放控件 |
+| t-control-scale | 比例尺控件 |
+| t-control-overview-map | 鹰眼控件 |
+
 ## 预览示例
 
 下载项目到本地：`git clone https://github.com/yinMrsir/vue-tmap`
