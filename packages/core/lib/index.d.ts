@@ -1,6 +1,11 @@
-export declare interface VueTMap {
-  install: (app: App) => void;
-  initTMapApiLoader: (config: { key: string }) => void;
+declare module "vue-tmap" {
+  interface VueTMap {
+    install: (app: App) => void;
+    initTMapApiLoader: (config: { key: string; version?: string }) => void;
+  }
+
+  const exported: VueTMap;
+  export = exported;
 }
 
 export declare class TMap {
@@ -54,6 +59,7 @@ declare global {
     T: {
       Map(container: String | HTMLElement, config: MapOptions): TMap;
       LngLat(lnglat: any): LngLat;
+      Point(x: Number, y: Number): Point;
     };
   }
 }

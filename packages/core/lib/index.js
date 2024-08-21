@@ -4,8 +4,9 @@ import { initTMapApiLoader } from "./services/injectedTMapApiInstance.js";
 import TMap from "./components/TMap.vue";
 import TControlZoom from "./components/TControlZoom.vue";
 import TControlScale from "./components/TControlScale.vue";
+import TControlOverviewMap from "./components/TControlOverviewMap.vue";
 
-let components = [TMap, TControlZoom, TControlScale];
+let components = [TMap, TControlZoom, TControlScale, TControlOverviewMap];
 
 let VueTMap = {
   initTMapApiLoader,
