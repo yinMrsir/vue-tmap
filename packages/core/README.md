@@ -51,6 +51,7 @@ app.use(VueTMap)
 
 ## 组件
 | 组件 | 说明 |
+| --- | --- |
 | t-map | 地图组件 |
 | t-control-zoom | 缩放控件 |
 | t-control-scale | 比例尺控件 |
