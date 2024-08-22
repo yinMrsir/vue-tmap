@@ -5,8 +5,15 @@ import TMap from "./components/TMap.vue";
 import TControlZoom from "./components/TControlZoom.vue";
 import TControlScale from "./components/TControlScale.vue";
 import TControlOverviewMap from "./components/TControlOverviewMap.vue";
+import TCarTrack from "./components/TCarTrack.vue";
 
-let components = [TMap, TControlZoom, TControlScale, TControlOverviewMap];
+let components = [
+  TMap,
+  TControlZoom,
+  TControlScale,
+  TControlOverviewMap,
+  TCarTrack,
+];
 
 let VueTMap = {
   initTMapApiLoader,

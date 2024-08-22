@@ -1,5 +1,5 @@
 <script setup>
-import { inject } from "vue";
+import { inject, watch } from "vue";
 import { lazyTMapApiLoaderInstance } from "../services/injectedTMapApiInstance";
 import { ControlZoomPotion } from "../utils/constant.js";
 

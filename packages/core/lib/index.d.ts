@@ -1,7 +1,11 @@
 declare module "vue-tmap" {
   interface VueTMap {
     install: (app: App) => void;
-    initTMapApiLoader: (config: { key: string; version?: string }) => void;
+    initTMapApiLoader: (config: {
+      key: string;
+      version?: string;
+      plugins?: string[];
+    }) => void;
   }
 
   const exported: VueTMap;
