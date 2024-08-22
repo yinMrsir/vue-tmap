@@ -1,6 +1,6 @@
 {
   "name": "vue-tmap",
-  "version": "0.1.3-alpha.0",
+  "version": "0.1.3",
   "description": "基于天地图封装适用于Vue3的地图组件库",
   "author": "yinchunyu <542968439@qq.com>",
   "homepage": "https://github.com/yinMrsir/vue-tmap",
