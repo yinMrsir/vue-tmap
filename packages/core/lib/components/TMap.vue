@@ -81,6 +81,13 @@ function setMapStyle(newMapStyle) {
     map.value.removeStyle();
   }
 }
+
+watch(
+  () => props.lngLat,
+  (newValue) => {
+    map.value && map.value.centerAndZoom(new T.LngLat(...newValue));
+  },
+);
 </script>
 
 <template>

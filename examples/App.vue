@@ -46,6 +46,7 @@ const data1 = [
         }"
       />
       <t-car-track @init="(e) => (carTrack1 = e)" :data="data1" />
+      <t-marker />
     </t-map>
   </div>
   <input type="button" id="button1" @click="map.zoomIn()" value="放大地图" />

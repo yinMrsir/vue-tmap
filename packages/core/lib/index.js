@@ -6,6 +6,7 @@ import TControlZoom from "./components/TControlZoom.vue";
 import TControlScale from "./components/TControlScale.vue";
 import TControlOverviewMap from "./components/TControlOverviewMap.vue";
 import TCarTrack from "./components/TCarTrack.vue";
+import TMarker from "./components/TMarker.vue";
 
 let components = [
   TMap,
@@ -13,6 +14,7 @@ let components = [
   TControlScale,
   TControlOverviewMap,
   TCarTrack,
+  TMarker,
 ];
 
 let VueTMap = {

@@ -71,6 +71,7 @@ app.use(VueTMap)
         }"
       />
       <t-car-track @init="(e) => (carTrack1 = e)" :data="data1" />
+      <t-marker />
     </t-map>
   </div>
   <input type="button" id="button1" @click="map.zoomIn()" value="放大地图" />
@@ -91,20 +92,20 @@ app.use(VueTMap)
 </template>
 ```
 ## 参数
-| 参数 | 说明 | 类型 | 默认值 |
-| --- | --- | --- | --- |
+| 参数 | 说明 | 类型 | 默认值                  |
+| --- | --- | --- |----------------------|
 | lngLat | 地图中心点经纬度 | [number, number] | [116.40769, 39.89945] |
-| zoom | 地图缩放级别 | number | 12 |
-| drag | 是否可拖拽 | boolean | true |
+| zoom | 地图缩放级别 | number | 12                   |
+| drag | 是否可拖拽 | boolean | true                 |
 
-## 组件
-| 组件 | 说明        |
-| --- |-----------|
-| t-map | 地图组件      |
-| t-control-zoom | 缩放组件      |
-| t-control-scale | 比例尺组件     |
-| t-control-overview-map | 鹰眼组件      |
-| t-car-track | 车辆轨迹组件，使用时需要先引入插件 |
+| 组件                     | 说明                |
+|------------------------|-------------------|
+| t-map                  | 地图组件              |
+| t-control-zoom         | 缩放组件              |
+| t-control-scale        | 比例尺组件             |
+| t-control-overview-map | 鹰眼组件              |
+| t-car-track            | 车辆轨迹组件，使用时需要先引入插件 |
+| t-marker               | 标记点组件             |
 
 ## 预览示例
 
