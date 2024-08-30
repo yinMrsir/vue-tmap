@@ -6,7 +6,7 @@ export default class TMapAPILoader {
 
   async load() {
     const { plugins } = this.config;
-    if (plugins.includes("carTrack")) {
+    if (plugins?.includes("carTrack")) {
       await this.loadTMap();
       await this.loadD3();
       await this.loadCarTrack();
